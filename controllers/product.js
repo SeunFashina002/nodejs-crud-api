@@ -1,4 +1,4 @@
-// get all products
+// get all products in db
 const getProducts = async (req, res) => {
   try {
     const products = await Product.find({});
