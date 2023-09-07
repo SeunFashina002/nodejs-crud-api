@@ -1,3 +1,5 @@
+const Product = require("../models/product");
+
 // get all products in db
 const getProducts = async (req, res) => {
   try {
